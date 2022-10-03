@@ -1,8 +1,19 @@
 .header {
   display: flex;
-  max-width: 1184px;
-  min-height: 52px;
   position: relative;
   margin: 28px 48px 56px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width : 1024px) {
+  .header {
+    margin: 28px 48px 48px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .header {
+    margin: 28px 24px 48px;
+  }
+}
+

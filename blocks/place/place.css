@@ -1,9 +1,24 @@
 .place {
   display: grid;
-  width: 984px;
-  height: 660px;
+  max-width: 984px;
   margin: 0 auto 80px;
-  grid-template-columns: 460px auto;
-  grid-template-rows: 152px auto;
-  gap: 40px 48px;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 48px 40px;
+}
+
+.place:last-of-type {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width : 1024px) {
+  .place {
+    gap: 32px 40px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .place {
+    gap: 28px 40px;
+  }
 }

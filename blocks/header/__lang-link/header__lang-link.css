@@ -17,3 +17,13 @@
   right: 0px;
   text-decoration-line: none;
 }
+
+@media screen and (max-width : 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    top: 14px;
+    bottom: 8px;
+    right: 40px;
+  }
+}
+
