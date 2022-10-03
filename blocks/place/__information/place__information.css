@@ -7,13 +7,13 @@
   line-height: 163%;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width: 1024px) {
   .place__information {
     max-width: 456px;
   }
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .place__information {
     max-width: 352px;
     font-size: 16px;
@@ -21,7 +21,7 @@
 }
 
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
   .place__information {
     font-size: 16px;
     grid-row: 4;
