@@ -4,8 +4,7 @@
   grid-row: 2;
   grid-column: 2;
   margin: 0;
-  justify-content: flex-end;
-  align-self: end;
+  line-height: 163%;
 }
 
 @media screen and (max-width : 1024px) {
@@ -22,8 +21,11 @@
 }
 
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 320px) {
   .place__information {
     font-size: 16px;
+    grid-row: 4;
+    grid-column: 1;
+    margin: 3%;
   }
 }
