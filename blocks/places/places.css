@@ -3,3 +3,9 @@
   flex-direction: column;
   margin: 92px auto 0;
 }
+
+@media screen and (min-width: 1280px){
+  .places {
+    margin: 92px calc((1280px - 984px) / 2) 0;
+  }
+}
