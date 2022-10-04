@@ -1,5 +1,5 @@
 .footer__link {
-  margin: 0 0 0 18px;
+  padding: 0 0 0 4%;
   font-family: 'Inter Regular';
   font-style: normal;
   font-weight: 400;
@@ -9,9 +9,9 @@
   text-decoration-line: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .footer__link {
     font-size: 24px;
-    margin: 0 0 32px 16px;
+    padding-bottom: 32px;
   }
 }

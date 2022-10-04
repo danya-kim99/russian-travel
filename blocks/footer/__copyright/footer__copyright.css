@@ -1,5 +1,6 @@
 .footer__copyright {
-  margin: 0 4% 0 4%;
+  padding: 0 4% 0 4%;
+  margin: 0;
   font-family: 'Inter Regular';
   font-style: normal;
   font-weight: 400;
@@ -8,8 +9,4 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
-  .footer__copyright {
-    margin: 0 0 0 18px;
-  }
-}
+

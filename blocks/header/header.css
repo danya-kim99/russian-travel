@@ -1,19 +1,19 @@
 .header {
   display: flex;
-  position: relative;
-  margin: 28px 48px 56px;
+  padding: 28px 48px 56px;
   box-sizing: border-box;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    margin: 28px 48px 48px;
+    padding: 28px 48px 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    margin: 28px 24px 48px;
+    padding: 28px 24px 48px;
   }
 }
 

@@ -1,6 +1,5 @@
 .place__link {
   max-width: 456px;
-  max-height: 22px;
   font-family: 'Inter Regular';
   font-weight: 400;
   font-size: 18px;
@@ -13,3 +12,4 @@
 .place__link:hover {
   opacity: 0.8;
 }
+
