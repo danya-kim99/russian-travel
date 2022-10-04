@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Inter Regular";
   src:
-    local("Inter Regular"),
+    local("Inter"),
     url(./Inter/Inter-Regular.woff2),
     url(./Inter/Inter-Regular.woff);
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: "Inter Black";
   src:
-    local("Inter Black"),
+    local("Inter"),
     url(./Inter/Inter-Black.woff2),
     url(./Inter/Inter-Black.woff);
 }
@@ -17,7 +17,7 @@
 @font-face {
   font-family: "Inter Bold";
   src:
-    local("Inter Bold"),
+    local("Inter"),
     url(./Inter/Inter-Bold.woff2),
     url(./Inter/Inter-Bold.woff);
 }
