@@ -37,14 +37,12 @@
 @media screen and (max-width: 768px) {
   .cover {
     padding: 15% calc((100% - 560px) / 2);
-    ;
   }
 }
 
 @media screen and (max-width: 721px) {
   .cover {
     padding: 20% calc((100% - 360px) / 2);
-    ;
   }
 }
 
