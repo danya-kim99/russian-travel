@@ -8,5 +8,6 @@
   .footer {
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 64px 0 24px;
   }
 }

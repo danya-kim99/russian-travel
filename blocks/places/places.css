@@ -9,3 +9,10 @@
     margin: 92px calc((1280px - 984px) / 2) 0;
   }
 }
+
+@media screen and (max-width: 320px){
+  .places {
+    margin-top: 62px;
+  }
+}
+

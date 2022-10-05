@@ -2,8 +2,8 @@
   min-width: 288px;
   margin: 0;
   padding: 0;
-  font-family: 'Inter Bold';
-  font-weight: 700;
+  font-family: 'Inter';
+  font-weight: bold;
   font-size: 12px;
   line-height: 18px;
   line-height: 163%;
@@ -14,25 +14,25 @@
 
 .intro__list li:nth-child(1)::after {
   content: "11";
-  font-family: 'Inter Regular';
+  font-weight: normal;
 }
 
 .intro__list li:nth-child(2)::after {
   content: "12";
-  font-family: 'Inter Regular';
+  font-weight: normal;
 }
 
 .intro__list li:nth-child(3)::after {
   content: "16";
-  font-family: 'Inter Regular';
+  font-weight: normal;
 }
 
 .intro__list li:nth-child(4)::after {
   content: "105";
-  font-family: 'Inter Regular';
+  font-weight: normal;
 }
 
 .intro__list li:nth-child(5)::after {
   content: "241";
-  font-family: 'Inter Regular';
+  font-weight: normal;
 }

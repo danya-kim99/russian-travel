@@ -1,7 +1,7 @@
 .intro {
   display: flex;
   flex-direction: column;
-  max-width: 680px;
+  max-width: 100%;
   margin: 92px auto 0px;
 }
 
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 320px) {
   .intro {
-    margin: 92px 16px 0;
+    margin: 65px 16px 0;
   }
 }
 
