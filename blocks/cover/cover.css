@@ -1,6 +1,6 @@
 .cover {
   max-width: 1184px;
-  padding: 19% calc((100% - 560px) / 2);
+  padding: 19% calc((93% - 560px) / 2);
   position: relative;
   display: flex;
   flex-direction: column;
